@@ -1,0 +1,43 @@
+.SeallingContainer{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+}
+.SeallingContainer h1 {
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-weight: bold;
+    color: #295A8B;
+}
+
+
+.SeallingContainer p {
+    color: #295A8B;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    padding: 1.4rem;
+}
+
+.homePage {
+    border: 1px solid;
+    font-size: 3rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: none;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.homePage:hover {
+    font-size: 3.5rem;
+    border: 1px solid;
+    outline: 1px;
+    color: black;
+    transition: ease-in 0.3s;
+    background-color: white;
+}
+

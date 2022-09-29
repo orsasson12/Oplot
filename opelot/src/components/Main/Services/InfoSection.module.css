@@ -1,0 +1,40 @@
+.Info_Container p ,h2{
+color: #295A8B;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+.Info_Container p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.Info_Container h2 {
+    font-size: 3rem;
+    padding: 1.3rem;
+}
+
+
+.readMore{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.readMore:hover{
+    font-size: 1.7rem;
+    color: blue;
+    transition: ease-in-out 0.6s;
+}
+
+
+@media screen and (min-width:768px) {
+    .Info_Container div {
+            display: grid;
+            justify-items: center;
+        }
+
+                .Info_Container p{
+                    width: 80%;
+                }
+}

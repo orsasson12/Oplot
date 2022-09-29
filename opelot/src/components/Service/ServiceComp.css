@@ -1,0 +1,155 @@
+.serviceContainer{
+    background: #0c0c0c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+        height: 800px;
+        position: relative;
+        z-index: 1;
+}
+
+.serviceHeader{
+    position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+}
+
+.stoneImg{
+    width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background: #232a34;
+}
+
+
+.contentContainer{
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.contentContainer h1{
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+    color: #295A8B;
+}
+
+.contentContainer p{
+    color: #295A8B;
+    line-height:2.3rem;
+    font-size: 1.5rem;
+    padding: 1.4rem;
+    font-weight: bold;
+}
+
+.methodsContainer{
+    display: grid;
+        place-content: center;
+        text-align: center;
+}
+
+.methodsContainer h2{
+  font-size: 2.3rem;
+    padding: 2rem;
+    font-weight: bold;
+    color: #295A8B;
+}
+
+.methodsContainer .ways p {
+    color: #295A8B;
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+    padding: 1.4rem;
+    font-weight: bold;
+}
+
+.firstMethod{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+}
+.firstMethod h3{
+font-size: 2rem;
+   padding: 1rem;
+    font-weight: bold;
+    color: #295A8B;
+}
+.firstMethod p{
+    color: #295A8B;
+        font-size: 1.4rem;
+        padding: 1.1rem;
+        font-weight: bold;
+}
+
+.secondMethod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondMethod h3{
+    font-size: 2rem;
+        padding: 1rem;
+        font-weight: bold;
+        color: #295A8B;
+}
+.secondMethod p {
+    color: #295A8B;
+        line-height: 2.3rem;
+        font-size: 1.5rem;
+        padding: 1.4rem;
+        font-weight: bold;
+}
+
+.homePage{
+    border: 1px solid;
+        font-size: 3rem;
+        background-color: black;
+        cursor: pointer;
+        color: white;
+        top: 0;
+        position: fixed;
+}
+.homePage:hover{
+font-size: 3.5rem;
+
+color: black;
+transition: ease-in 0.3s ;
+background-color: white;
+}
+@media screen and  (min-width:768px) {
+    .contentContainer p {
+        width: 80%;
+        margin: 0 auto;
+        line-height: 4rem;
+    }
+        .methodsContainer .ways p{
+            width: 80%;
+                margin: 0 auto;
+                line-height: 4rem;
+        }
+                .secondMethod p {
+                    width: 80%;
+                        margin: 0 auto;
+                        line-height: 4rem;
+                }
+}
+
+@media screen and (max-width:768px){
+    .firstMethod {
+        flex-direction: column;
+    }
+        .firstMethod p{
+            line-height: 4rem;
+        }
+        
+}
